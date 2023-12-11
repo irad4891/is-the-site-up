@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UrlCheckController {
 
     private final String SITE_IS_UP = "Site is working!";
-    private final String SITE_IS_DOWN = "Site is down!";
+    private final String SITE_IS_DOWN = "Site is not working!";
     private final String WRONGURL = "Url is incorrect!";
     
 
